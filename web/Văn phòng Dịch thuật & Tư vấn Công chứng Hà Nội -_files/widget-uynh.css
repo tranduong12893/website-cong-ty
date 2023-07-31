@@ -1,0 +1,32 @@
+/**
+ *
+ * Styles for the widget's page
+ *
+ **/
+
+/*------------------Uynh css----*/
+.custom_jcarousel{
+	display: none;
+}
+.widget-title h4 {
+	margin: 0 !important;
+	padding: 10px 0px 10px 10px !important;
+	line-height: 20px !important;
+	overflow: hidden !important;
+	white-space: normal !important;
+	text-overflow: initial !important;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#available-widgets .widget-description, #widgets-right a.widget-control-edit, .in-widget-title{
+	color: #9D9D9D;
+}
+.column-thumb img{
+	max-width: 60%;
+}
+#wpfooter{
+	position: relative;
+}
+.clear{clear:both;}
