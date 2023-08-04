@@ -1507,7 +1507,9 @@ ol {
 .footer-section {
 	background: #ed1b24;
 	padding-top: 75px;
-
+	float: left;
+	width: 100%;
+	
 }
 
 .footer-left {
@@ -3937,16 +3939,16 @@ ol {
 	margin-right: auto;
 }
 
-#black-studio-tinymce-12{
+#black-studio-tinymce{
 	float: left;
 
 }
 
-#black-studio-tinymce-13{
+#black-studio-tinymce{
 	float: left;
 }
 
-#black-studio-tinymce-14{
+#black-studio-tinymce{
 	float: left;
 }
 
@@ -3978,21 +3980,24 @@ ol {
 	line-height:18px;
 }
 
-.menu-table{
-	
-}
 
 .box{
+	position: relative;
 	overflow: hidden;
-	max-width: 300;
-	margin-top: 50px;
+	margin: 40 0 0 -25;
 	float: left;
 	border-radius: 10px;
 }
 
+.box1{
+	overflow: hidden;
+	margin: 40 0 0 0;
+	float: left;
+	border-radius: 10px;
+}
 
 .title-box{
-	background: #01006a;
+	background: #ed1b24;
 	padding: 0.5em;
 }
 
@@ -4012,7 +4017,37 @@ ol {
 	font-size: 12px;
 }
 
+#content{
+	margin: -10 0 0 10;
+	padding: 0 0 0 0;
+}
 
+#menu-right{
+	float: left;
+	position: relative;
+	margin: -330 0 0 15;
+}
+
+.menu-red{
+	background: #ed1b24;
+	overflow: hidden;
+	margin: 0 -15 5 	-13;
+	padding: 10 10 0 30;
+}
+
+.menu-red p{
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.menu-table{
+	background: #e5eef7;
+	overflow: hidden;
+	margin: -10 -14 10 -13;
+}
+
+.menu-table ol{
+	margin: 15 10 15 30;
+}
 /* ------------------------------ Responsive Media Styles ---------------------------- */
 
 @media only screen and (min-width: 1200px) and (max-width: 1920px) {
